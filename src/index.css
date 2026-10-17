@@ -1,0 +1,46 @@
+.topbar {
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 0.8rem;
+  color: #555;
+  background: #f3f3f3;
+  border-bottom: 2px solid #ddd;
+  padding: 0.5rem 1rem;
+}
+
+.listbox {
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+  height: 280px;
+  overflow-y: auto;
+}
+.listbox-option {
+  padding: 0.45rem 1.25rem;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  user-select: none;
+}
+.listbox-option.selected {
+  background: #3d6ef5;
+  color: #fff;
+}
+
+.results-table tbody tr { cursor: pointer; }
+.results-table td { white-space: nowrap; }
+.results-table th.sortable { cursor: pointer; white-space: nowrap; user-select: none; }
+
+.order-details .order-type { background: #000; color: #fff; padding: 0 0.25rem; }
+.section-title {
+  background: #f0f0f0;
+  color: #666;
+  text-align: center;
+  padding: 0.3rem;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+.blain-table { font-size: 0.82rem; }
+.blain-table thead th { background: #4f5bab; color: #fff; font-weight: 600; }
+.item-status-Incomplete { color: #e67e22; }
+.item-status-Packed { color: #138496; }
+.item-status-AwaitingPickup { color: #4f5bab; }
+.item-status-PickedUp { color: #28a745; }
+.item-status-Cancelled { color: #dc3545; }
